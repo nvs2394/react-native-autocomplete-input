@@ -84,7 +84,7 @@ class Autocomplete extends Component {
     onStartShouldSetResponderCapture: () => false,
     renderItem: rowData => <Text>{rowData}</Text>,
     renderSeparator: null,
-    renderTextInput: props => <TextInput {...props} />
+    renderTextInput: props => <TextInput {...props} underlineColorAndroid={'transparent'}/>
   };
 
   constructor(props) {
